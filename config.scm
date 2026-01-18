@@ -37,7 +37,7 @@
   (packages
     (append
       (map specification->package
-           '("htop" "neovim" "openssh" "git"))
+           '("htop" "neovim" "openssh" "git" "xdg-utils"))
       %base-packages))
 
   (services
